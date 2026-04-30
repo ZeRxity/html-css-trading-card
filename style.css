@@ -1,21 +1,37 @@
 /* add your CSS here */
 .card-container {
-
+    display: flex;
+    flex-wrap: wrap;
+    border-style: groove;
+    border-width: 5px;
+    border-color: #000000;
+    width: 315px;
+    background-color: #bd7b19;;
 }
 
 .card-title {
-
 }
 
-.card-image {
 
+.card-image {
+    width: 300px;
+    margin: 2.5%;
+    box-shadow: -2px 4px 5px #000000;
 }
 
 .bottom-content {
-
+    border-style: groove;
+    margin: 2%;
+    padding: 3%;
+    word-wrap: break-word;
+    width: 300px;
+    border-color: #FFD700;
+    box-shadow: -2px 4px 5px #000000;
+    text-align: justify;
 }
 
-
 .stats-list {
-
+    list-style-type: none;
+    text-align: left;
+    padding: 0px;
 }
