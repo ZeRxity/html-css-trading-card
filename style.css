@@ -1,7 +1,16 @@
 /* add your CSS here */
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
 .card-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     border-style: groove;
     border-width: 5px;
     border-color: #000000;
